@@ -1,0 +1,28 @@
+body,html {
+    background-image: url("casey-horner-RmoWqDCqN2E-unsplash.jpg");
+}
+
+.banner {
+    background-image: url("/Users/yeceniabrennan/Desktop/CODING/responsive club website/headeralien.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px; 
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; 
+    flex-direction: column;
+}
+
+.banner h1 {
+    color: #98fc03;
+    font-family:  "Rubik Iso", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    flex-direction: row; 
+}
